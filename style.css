@@ -1,0 +1,84 @@
+.header {
+    height: 600px;
+    background-color: rgb(219, 216, 216);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section {
+    height: 400px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2 {
+    height: 400px;
+    background-color: rgb(172, 169, 169);
+    display: flex;
+    justify-content: center;
+}
+
+.kompetenser {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.streck {
+background-color: black;
+    width: 50px;
+    height: 2px;
+}
+
+.topSection {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: center;
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+.slow-spin {
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-spin 6s infinite linear;
+    color: rgb(65, 64, 64);  
+}
+
+.color {
+    color: rgb(65, 64, 64);
+}
+
+.text {
+    font-size: 12px;
+}
+
+h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.wrapper {
+
+}
