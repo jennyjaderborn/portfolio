@@ -1,12 +1,27 @@
 .header {
     height: 600px;
+    width: 100%;
     background-color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBlock {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -18,10 +33,19 @@ body {
 }
 
 #section2 {
-    height: 400px;
-    background-color: rgb(172, 169, 169);
+    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(172, 169, 169);
+}
+
+.section3 {
+    height: 400px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .kompetenser {
@@ -69,7 +93,18 @@ background-color: black;
 }
 
 .text {
-    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.erfarenheter {
+    text-align: center;
+    font-style: italic;
+
+}
+.headerBlock h1 {
+    font-size: 24px;
+    letter-spacing: 5px;
 }
 
 h1 {
@@ -80,5 +115,267 @@ h1 {
 }
 
 .wrapper {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+
+.cardRow {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    /*background-color: rgb(172, 169, 169);*/
+}
+
+
+.infoBox {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+.infoImage {
+    position: relative;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.infoImage .imgBtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(219, 215, 215);
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.textBox {
+    width: 80%;
+}
+
+
+.footer {
+    background-color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerImg {
+    height: 500px;
+    border: 2px solid white;
+    box-shadow: 0px 2px 6px 2px gray;
+
+}
+
+.textBox {
+    line-height: 200%;
+}
+
+
+.link {
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 680px) {
+
+    .header {
+        flex-direction: column;
+        height: 500px;
+        justify-content: space-around;
+    }
+
+    .headerImg {
+        height: 300px;
+    }
+
+    .headerBlock h1 {
+        font-size: 16px;
+        /*letter-spacing: 5px;*/
+    }
+
+    .headerBlock {
+        width: 100%;
+    }
+
+    .topSection {
+        height: 30%;
+    }
+
+    .bottomSection {
+        width: 100%;
+        height: 20%;
+        font-size: 12px;
+
+    }
+
+    .section {
+        height: 400px;
+    }
+
+    .boxText {
+        width: 90%;
+        height: 40%;
+    }
+
+
+    .cardRow {
+        width: 100%;
+        height: 100%;
+        /*height: 500px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        justify-content: center;
+        margin-top: 20px;
+        box-shadow: 5px 10px 8px #888888;
+        justify-content: center;
+        /*background-color: rgb(172, 169, 169);*/
+    }
+
+    .projectImg {
+        width: 300px;
+    }
+
+    .infoBox {
+        width: 95%;
+    }
+
+    .imgBtn {
+        width: 200px;
+    }
+
+    .textBox {
+        width: 85%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3{
+
+    height: 80%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    #topSection {
+            display:  flex;
+            flex-direction: column;
+            align-items: center;
+            height: 15%;
+            justify-content: center;
+            margin-bottom: 1%;
+    }
+    
+    .footer {
+        flex-direction: column;
+    }
+
+    .links {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .infoBox {
+        line-height: 200%;
+        align-items: center;
+    }
+    .infoBox h4 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .boxText {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 568px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .headerImg{
+        height: 400px;
+    }
+
+    .headerBlock {
+        width: 50%;
+    }
+
+    .header {
+        height: 470px
+    }
+
+    .cardRow {
+        width: 100%;
+        height: 100%;
+        /*height: 500px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        justify-content: center;
+        margin-top: 20px;
+        box-shadow: 5px 10px 8px #888888;
+        justify-content: center;
+        /*background-color: rgb(172, 169, 169);*/
+    }
+
+    .infoBox {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .textBox{
+        height: 80%;
+    }
+
+    .section3 {
+        justify-content: center;
+    }
+
+    .boxText {
+        width: 90%;
+    }
 
 }

@@ -1,23 +1,25 @@
 [
     {
         "name": "H.O.M.E",
-        "text": "teeext",
-        "image": "./images/webshop.png"
+        "text": "En webshop i JavaScript, även med ett admin-gränssnitt. Funktioner så som att registrera sig, logga in, lägga varor i varukorgen och göra ett 'köp' och att välja en kategori finns. I admin-gränssnittet finns möjlighet att se ordrar osv.",
+        "image": "./images/webshop.png",
+        "link": "www.jennyjaderborn.se/webshop/",
+        "buttonText": "Besök sida"
     },
     {
-        "name": "H.O.M.E",
-        "text": "teeext",
-        "image": "./images/cesoir2.png"
+        "name": "Get the weather!",
+        "text": "En enkel väderapplikation som visar dig vädret just nu i den stad du söker på. Skapad med JavaScript, Node.js, Express, Pug och jag använder mig av Open Weather Maps API. ",
+        "image": "./images/weatherapp.png",
+        "link": "https://jenny-weather-app.herokuapp.com",
+        "buttonText": "Besök sida"
+
     },
     {
-        "name": "H.O.M.E",
-        "text": "teeext",
-        "image": "./images/vegokoket2.png"
-    },
-    {
-        "name": "H.O.M.E",
-        "text": "teeext",
-        "image": "./images/vrink2.png"
+        "name": "Restaurant Guide",
+        "text": "En webbapplikation i React jag gjort tillsammans med en klasskamrat. Du kan söka restauranger efter stad och kategori, skriva recenssioner samt betygsätta med visst antal stjärnor. Vi har även implementerat Redux i projektet. Backend är byggt med Node.js och vi använder oss av MongoDB. Tanken är att bygga vidare på detta projekt och använda oss av ett API, vi hann inte så långt under projektets period.",
+        "image": "./images/restaurant.png",
+        "link": "https://github.com/jennyjaderborn/restaurant-redux-app",
+        "buttonText": "Besök Githubrepo"
     }
 
 ]
